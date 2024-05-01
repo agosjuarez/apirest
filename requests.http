@@ -1,0 +1,30 @@
+###
+POST http://localhost:8080/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "sofia win",
+    "age": "43",
+    "email": "sofiawin@gmail.com"
+}
+
+###
+GET http://localhost:8080/api/users HTTP/1.1
+
+
+###
+GET http://localhost:8080/api/users/663188e8bf0d21372bb3cc93 HTTP/1.1
+
+
+###
+PUT http://localhost:8080/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "sofia win",
+    "age": "23",
+    "email":  "sofiawin@gmail.com"
+}
+
+###
+DELETE http://localhost:8080/api/users/663188e8bf0d21372bb3cc93 HTTP/1.1
